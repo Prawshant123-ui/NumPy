@@ -1,66 +1,48 @@
-Practice questions
+NumPy Practice Questions (Essentials)
 
-Indexing & slicing
+Data: a 2D array of restaurants with columns [id, 2021, 2022, 2023, 2024]. The 26 questions below keep one question per skill and drop repeats.
+
+Indexing and slicing
 1. Get the first restaurant's complete record.
-2. Get the last restaurant's complete record.
-3. Get sales for all restaurants in 2022.
-4. Get sales for all restaurants in 2024.
-5. Get records of restaurants 1–5.
-6. Get only the 2022 and 2023 sales columns.
-7. Get the 2024 sales of restaurants 3, 5, and 7.
+2. Get the sales of all restaurants in 2022.
+3. Get the records of restaurants 1–5.
+4. Get only the 2022 and 2023 sales columns.
+5. Get the 2024 sales of restaurants 3, 5 and 7.
 
 Calculations
-8. Find the average sales in 2021.
-9. Find the highest sales in 2024.
-10. Find the lowest sales in 2022.
-11. Find the average sales for each restaurant across all 4 years.
-12. Find the highest sales for each restaurant.
-13. Find the total sales across all restaurants for each year.
+6. Find the average sales in 2021.
+7. Find the highest sales in 2024.
+8. Find the average sales of each restaurant across all 4 years.
+9. Find the highest sales of each restaurant.
+10. Find the total sales across all restaurants for each year.
 
 Sorting
-14. Sort the 2024 sales.
-15. Sort restaurants based on their 2024 sales.
-16. Find the top 3 restaurants based on 2024 sales.
-17. Find the bottom 3 restaurants based on 2021 sales.
-18. Use np.argsort() to find the ranking of restaurants based on 2024 sales.
+11. Sort the restaurants by their 2024 sales.
+12. Find the top 3 restaurants by 2024 sales.
+13. Use np.argsort() to get the ranking of restaurants by 2024 sales.
 
-Filtering / masks
-19. Find restaurants whose 2024 sales are greater than 250000.
-20. Find restaurants whose 2021 sales are below 150000.
-21. Find restaurants whose 2024 sales are greater than 200000 AND 2023 sales are greater than 200000.
-22. Find restaurants whose 2024 sales are greater than 250000 OR 2021 sales are greater than 200000.
-23. Get the restaurant IDs where 2024 sales are greater than 250000.
+Filtering with masks
+14. Find restaurants whose 2024 sales are greater than 250000.
+15. Find restaurants whose 2024 AND 2023 sales are both greater than 200000.
+16. Find restaurants whose 2024 sales are greater than 250000 OR 2021 sales are greater than 200000.
+17. Get the restaurant IDs where 2024 sales are greater than 250000.
 
 np.where()
-24. Find the indexes where 2024 sales are greater than 250000.
-25. Use np.where() to label restaurants as "High" if 2024 sales ≥ 250000, otherwise "Low".
-26. Find the indexes of restaurants whose sales increased every year.
-27. Find restaurants where 2024 sales are at least 50,000 higher than 2021 sales.
+18. Label restaurants "High" if 2024 sales ≥ 250000, otherwise "Low".
+19. Find the indexes of restaurants whose sales increased every year.
+20. Find restaurants where 2024 sales are at least 50000 higher than 2021 sales.
 
 Fancy indexing
-28. Select restaurants with IDs 2, 5, 8.
-29. Select the 2024 sales of restaurants at row indexes 1, 4, 7.
-30. Select these individual values:
-- Restaurant 1 → 2021 sales
-- Restaurant 4 → 2023 sales
-- Restaurant 7 → 2024 sales
+21. Select the 2024 sales of the restaurants at row indexes 1, 4 and 7.
+22. Select these individual values: restaurant 1 → 2021 sales, restaurant 4 → 2023 sales, restaurant 7 → 2024 sales.
 
 Array manipulation
-31. Add this new restaurant:
-new_restaurant = np.array([11, 145000, 170000, 195000, 225000])
+23. Add a new restaurant: np.array([11, 145000, 170000, 195000, 225000]) (hint: it is 1D, so reshape it first).
+24. Remove the restaurant with ID 6.
+25. Add a ratings column with hstack(): np.array([[4.2],[4.5],[4.7],[4.3],[4.6],[4.1],[4.8],[4.0],[4.4],[4.5]]).
 
+Challenge
+26. Build an array of [restaurant_id, average_sales], then sort it from highest to lowest average sales.
 
-32. Remove the restaurant with ID 6.
-33. Add these two restaurants using vstack():
-new_restaurants = np.array([    [12, 155000, 180000, 210000, 240000],    [13, 190000, 215000, 245000, 280000]])
-
-
-34. Add this new column using hstack():
-rating = np.array([    [4.2],    [4.5],    [4.7],    [4.3],    [4.6],    [4.1],    [4.8],    [4.0],    [4.4],    [4.5]])
-
-
- Challenge
-35. Create a new array containing:
-[restaurant_id, average_sales]
-
-Then sort the restaurants from highest average sales to lowest average sales.
+Ready for pandas?
+If you can do 14–17 (masks), 8–10 (axis calculations) and 26 without looking anything up, move on to pandas.
