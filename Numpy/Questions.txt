@@ -46,3 +46,19 @@ Challenge
 
 Ready for pandas?
 If you can do 14–17 (masks), 8–10 (axis calculations) and 26 without looking anything up, move on to pandas.
+
+
+
+Data structure: [restaurant_id, 2021, 2022, 2023, 2024]
+sales_data = np.array([
+    [1, 150000, 180000, 220000, 250000],  # Paradise Biryani
+    [2, 120000, 140000, 160000, 190000],  # Beijing Bites
+    [3, 200000, 230000, 260000, 300000],  # Pizza Hub
+    [4, 180000, 210000, 240000, 270000],  # Burger Point
+    [5, 160000, 185000, 205000, 230000],  # Chai Point
+    [6, 95000,  125000, 150000, 175000],  # Momo House
+    [7, 220000, 250000, 280000, 320000],  # Thakali Kitchen
+    [8, 110000, 135000, 170000, 200000],  # Sushi Corner
+    [9, 175000, 190000, 215000, 245000],  # Cafe Mocha
+    [10, 130000, 155000, 185000, 210000]  # Tandoori Palace
+])
