@@ -1,0 +1,78 @@
+PANDAS DATAFRAME DRILLS: STORE SALES EDITION
+Skills covered: .loc, .iloc, filtering, adding, updating, deleting
+
+Setup (for Parts 1 to 3, assume a fresh df: original 5 rows, 4 columns):
+
+    import pandas as pd
+
+    data = {
+        'Ad_Budget': [2, 4, 6, 8, 10],
+        'Discount': [5, 8, 10, 15, 20],
+        'Customers': [120, 150, 190, 230, 260],
+        'Sales': [35, 48, 62, 81, 97]
+    }
+    df = pd.DataFrame(data)
+
+==================================================
+PART 1: Selecting by Label (.loc)
+==================================================
+1. Write code to get the Customers value of the row labeled 3.
+2. Select rows 0 to 2 with only the Discount and Sales columns.
+3. How many rows does df.loc[1:3, 'Sales'] return, and why?
+4. Why does df.loc[1:3] return 3 rows while df.iloc[1:3] returns 2?
+
+==================================================
+PART 2: Selecting by Position (.iloc)
+==================================================
+5. Get the Ad_Budget value of the last row using .iloc.
+6. Select the first 3 rows and first 2 columns.
+7. Create X (all columns except Sales) and y (only Sales) using .iloc.
+8. What does df.iloc[:, -1] return?
+
+==================================================
+PART 3: Filtering Rows
+==================================================
+9. Show all rows with Ad_Budget >= 6.
+10. Show rows with Discount > 10 AND Sales > 60.
+11. Show rows with Sales < 50 OR Customers > 230 (use |).
+12. Show only Ad_Budget and Customers for rows where Sales is between 50 and 80 (inclusive).
+13. This code gives an error. Why, and how do you fix it?
+
+        df[df['Sales'] > 50 & df['Customers'] > 200]
+
+==================================================
+PART 4: Adding Columns and Rows
+==================================================
+14. Add a column Sales_Per_Customer = Sales / Customers.
+15. Add a column Level that is 'High' where Sales >= 80 and 'Normal' everywhere else.
+16. Add a new row with label 5: Ad_Budget 12, Discount 25, Customers 300, Sales 110.
+17. If your df already has a Status column (5 columns total), what happens if you do
+    df.loc[5] = [12, 25, 300, 110]? Why?
+
+==================================================
+PART 5: Updating Values
+==================================================
+18. Change Discount of row 4 to 18.
+19. Set Status to 'Low' for every row with Customers < 160.
+20. Increase every Ad_Budget value by 1.
+21. Reduce Sales by 5 only for rows where Discount > 12.
+
+==================================================
+PART 6: Deleting Columns and Rows
+==================================================
+22. Delete the Customers column.
+23. Delete rows with labels 0 and 1.
+24. Keep only the rows where Sales > 60.
+25. Does df.drop(columns=['Sales']) change df if you don't assign it back? Explain.
+
+==================================================
+PART 7: Combined Challenge
+==================================================
+26. In order:
+    a) Add a Boost column: 5 if Ad_Budget > 6, else 0.
+    b) Add Boost to Sales (update the Sales column).
+    c) Delete the Boost column.
+    d) Show only Ad_Budget and Sales for rows where the new Sales >= 70.
+
+--------------------------------------------------
+Tip: Try them on your own first, then check your answers by running the code.
