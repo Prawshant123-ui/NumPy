@@ -1,0 +1,121 @@
+farmer_id,district,crop,variety,season,irrigation,fertilizer_type,farm_size_ha,soil_pH,avg_temp_C,rainfall_mm,days_to_maturity,yield_t_ha,cost_NPR_ha,selling_price_NPR_kg,gross_income_NPR,net_income_NPR,profit_loss,pest_score
+F001,Chitwan,Rice,Sukhadhan-3,Kharif,Irrigated,Organic,0.66,6.2,20.2,1509,111,4.34,48048,20.6,89404,41356,Profit,5
+F002,Rupandehi,Mustard,Local,Rabi,Irrigated,Organic,2.7,5.9,21.9,1494,111,1.86,41938,31.2,58032,16094,Profit,3
+F003,Bara,Lentil,Shital,Rabi,Rainfed,Integrated,0.61,6.6,25.2,1578,101,1.94,44265,23.4,45396,1131,Profit,1
+F004,Chitwan,Wheat,WK-1204,Rabi,Irrigated,Integrated,2.95,5.5,21.3,1694,108,3.89,44747,23.4,91026,46279,Profit,2
+F005,Parsa,Wheat,WK-1204,Rabi,Irrigated,Integrated,2.47,5.8,28.6,1597,86,3.91,47846,33.5,130985,83139,Profit,3
+F006,Parsa,Wheat,WK-1204,Rabi,Rainfed,Integrated,1.71,5.9,24.1,1721,82,2.88,41497,30.1,86688,45191,Profit,2
+F007,Parsa,Lentil,Shital,Rabi,Rainfed,Organic,0.7,5.9,20.3,1169,100,1.5,43808,35.1,52650,8842,Profit,1
+F008,Bara,Lentil,LL-981,Rabi,Irrigated,Chemical,1.63,5.9,29.9,1254,101,2.9,53975,22.7,65830,11855,Profit,3
+F009,Nawalpur,Lentil,Shital,Rabi,Irrigated,Organic,1.98,6.2,24.0,1971,114,2.71,40090,27.4,74254,34164,Profit,5
+F010,Chitwan,Rice,Sukhadhan-3,Kharif,Irrigated,Organic,3.43,6.4,27.1,1661,119,4.62,37926,20.0,92400,54474,Profit,5
+F011,Bara,Wheat,WK-1204,Rabi,Rainfed,Integrated,1.43,5.8,24.7,1715,113,3.17,43010,27.5,87175,44165,Profit,1
+F012,Bara,Rice,Sabitri,Kharif,Irrigated,Chemical,2.41,6.0,28.7,1832,84,4.99,49489,25.0,124750,75261,Profit,1
+F013,Bara,Mustard,Local,Rabi,Irrigated,Integrated,0.38,6.1,23.2,1438,103,2.53,50672,30.0,75900,25228,Profit,4
+F014,Chitwan,Wheat,WK-1204,Rabi,Rainfed,Integrated,0.52,6.4,23.5,1389,110,2.98,40340,31.2,92976,52636,Profit,4
+F015,Rupandehi,Rice,Radha-4,Kharif,Irrigated,Chemical,1.08,5.7,24.9,1718,109,4.87,47094,24.2,117854,70760,Profit,5
+F016,Chitwan,Lentil,LL-981,Rabi,Irrigated,Organic,2.13,7.5,25.1,1283,118,2.39,40279,23.8,56882,16603,Profit,2
+F017,Chitwan,Mustard,Arun,Rabi,Irrigated,Integrated,0.33,5.8,20.8,1375,132,2.31,49368,32.9,75999,26631,Profit,4
+F018,Chitwan,Maize,Rampur Composite,Kharif,Irrigated,Integrated,3.49,6.7,24.5,1591,133,4.78,46000,30.1,143878,97878,Profit,5
+F019,Nawalpur,Maize,Pool-17,Kharif,Irrigated,Integrated,2.9,5.6,17.9,1489,115,4.97,46415,21.7,107849,61434,Profit,2
+F020,Nawalpur,Maize,Across-9942,Kharif,Irrigated,Organic,0.5,5.7,24.0,1421,102,4.62,43791,21.7,100254,56463,Profit,4
+F021,Chitwan,Lentil,Shital,Rabi,Irrigated,Integrated,3.18,6.5,20.6,1549,119,3.13,44028,34.9,109237,65209,Profit,2
+F022,Chitwan,Wheat,WK-1204,Rabi,Rainfed,Chemical,3.41,5.4,26.0,1317,113,3.22,43193,29.6,95312,52119,Profit,3
+F023,Rupandehi,Mustard,Local,Rabi,Irrigated,Integrated,0.56,6.4,22.3,1193,113,2.46,45131,31.2,76752,31621,Profit,3
+F024,Chitwan,Maize,Across-9942,Kharif,Irrigated,Integrated,1.52,6.2,17.1,1267,119,5.17,49492,27.1,140107,90615,Profit,1
+F025,Parsa,Lentil,Simal,Rabi,Rainfed,Chemical,1.64,7.0,28.3,1657,114,1.56,44121,23.4,36504,-7617,Loss,2
+F026,Parsa,Maize,Rampur Composite,Kharif,Rainfed,Chemical,2.26,5.1,28.6,1779,103,4.37,43558,22.0,96140,52582,Profit,2
+F027,Parsa,Mustard,Arun,Rabi,Rainfed,Organic,2.23,6.2,24.0,1102,118,1.01,37228,24.8,25048,-12180,Loss,4
+F028,Chitwan,Wheat,WK-1204,Rabi,Irrigated,Integrated,2.24,6.3,26.1,1346,113,3.84,55462,32.1,123264,67802,Profit,5
+F029,Parsa,Rice,Radha-4,Kharif,Rainfed,Integrated,0.84,5.8,24.1,1817,111,3.92,41787,25.2,98784,56997,Profit,5
+F030,Chitwan,Mustard,Arun,Rabi,Irrigated,Organic,1.71,6.3,19.6,755,140,1.8,40367,22.8,41040,673,Profit,5
+F031,Nawalpur,Mustard,Local,Rabi,Rainfed,Integrated,3.04,6.2,18.3,1450,93,1.62,46423,27.2,44064,-2359,Loss,3
+F032,Nawalpur,Maize,Rampur Composite,Kharif,Irrigated,Organic,1.46,5.8,24.7,1652,105,4.82,45483,23.7,114234,68751,Profit,5
+F033,Nawalpur,Rice,Radha-4,Kharif,Irrigated,Chemical,1.19,6.9,20.4,1357,83,5.18,46721,27.2,140896,94175,Profit,4
+F034,Parsa,Maize,Pool-17,Kharif,Irrigated,Chemical,3.23,6.8,17.6,1284,107,5.29,43372,32.4,171396,128024,Profit,2
+F035,Bara,Rice,Radha-4,Kharif,Irrigated,Chemical,1.28,5.6,27.4,1399,116,5.27,49254,32.6,171802,122548,Profit,1
+F036,Chitwan,Rice,Sabitri,Kharif,Irrigated,Organic,2.25,6.2,22.5,1420,99,4.35,41218,33.0,143550,102332,Profit,1
+F037,Bara,Wheat,Gautam,Rabi,Irrigated,Chemical,2.1,5.4,29.0,1006,95,4.22,53433,25.6,108032,54599,Profit,1
+F038,Chitwan,Lentil,Simal,Rabi,Irrigated,Integrated,1.42,6.9,20.8,1809,140,3.17,43489,20.9,66253,22764,Profit,2
+F039,Rupandehi,Mustard,Arun,Rabi,Irrigated,Integrated,1.09,5.6,23.2,1376,98,2.74,42661,36.8,100832,58171,Profit,2
+F040,Nawalpur,Mustard,Arun,Rabi,Rainfed,Chemical,0.29,6.7,24.9,1557,93,2.32,44072,24.2,56144,12072,Profit,1
+F041,Rupandehi,Lentil,Shital,Rabi,Irrigated,Chemical,1.81,5.9,20.0,1429,104,2.98,53330,25.7,76586,23256,Profit,4
+F042,Nawalpur,Lentil,Simal,Rabi,Irrigated,Integrated,2.02,6.8,21.5,1461,108,2.44,46871,15.7,38308,-8563,Loss,2
+F043,Rupandehi,Wheat,NL-297,Rabi,Irrigated,Integrated,2.15,5.0,19.2,1332,124,3.85,51656,29.1,112035,60379,Profit,1
+F044,Bara,Lentil,LL-981,Rabi,Rainfed,Integrated,3.07,6.3,26.7,1166,101,1.97,49970,31.8,62646,12676,Profit,4
+F045,Chitwan,Rice,Radha-4,Kharif,Irrigated,Integrated,2.28,,26.3,1659,118,4.69,47571,21.2,99428,51857,Profit,5
+F046,Nawalpur,Wheat,WK-1204,Rabi,Irrigated,Chemical,1.18,5.6,25.7,1511,108,4.23,44609,27.8,117594,72985,Profit,2
+F047,Nawalpur,Wheat,Gautam,Rabi,Irrigated,Chemical,1.69,6.4,23.4,1575,105,3.88,46190,17.5,67900,21710,Profit,5
+F048,Parsa,Wheat,Gautam,Rabi,Irrigated,Integrated,0.69,6.3,24.8,1014,94,4.28,45667,23.8,101864,56197,Profit,4
+F049,Nawalpur,Maize,Pool-17,Kharif,Irrigated,Organic,2.17,6.3,23.6,,90,4.86,48454,32.3,156978,108524,Profit,1
+F050,Nawalpur,Maize,Rampur Composite,Kharif,Rainfed,Organic,1.75,5.7,25.6,1320,98,3.74,42331,30.5,114070,71739,Profit,3
+F051,Chitwan,Maize,Rampur Composite,Kharif,Irrigated,Integrated,1.84,5.5,27.0,,120,5.32,51053,33.7,179284,128231,Profit,5
+F052,Nawalpur,Rice,Radha-4,Kharif,Irrigated,Organic,1.91,5.7,24.0,1386,118,4.15,50012,26.8,111220,61208,Profit,5
+F053,Rupandehi,Wheat,WK-1204,Rabi,Irrigated,Integrated,1.55,6.2,24.8,1297,105,3.86,49473,26.3,101518,52045,Profit,3
+F054,Parsa,Mustard,Local,Rabi,Irrigated,Integrated,0.68,5.5,21.1,1790,121,2.57,45033,28.9,74273,29240,Profit,1
+F055,Bara,Maize,Pool-17,Kharif,Irrigated,Integrated,1.82,5.8,21.3,1345,94,5.11,46354,30.9,157899,111545,Profit,2
+F056,Parsa,Lentil,Shital,Rabi,Rainfed,Chemical,0.34,5.9,18.7,1161,86,2.45,44378,33.7,82565,38187,Profit,5
+F057,Chitwan,Maize,Across-9942,Kharif,Irrigated,Chemical,0.25,6.3,29.5,920,112,5.17,46641,24.5,126665,80024,Profit,1
+F058,Nawalpur,Maize,Across-9942,Kharif,Rainfed,Integrated,2.57,6.3,23.4,1017,85,4.9,43120,25.9,126910,83790,Profit,1
+F059,Rupandehi,Mustard,Arun,Rabi,Irrigated,Organic,0.35,6.3,23.2,1633,91,1.92,44483,25.1,48192,3709,Profit,1
+F060,Parsa,Lentil,LL-981,Rabi,Rainfed,Chemical,3.21,5.8,24.6,1851,112,2.47,42175,31.0,76570,34395,Profit,3
+F061,Bara,Lentil,LL-981,Rabi,Rainfed,Integrated,1.03,6.7,24.9,1634,112,2.29,34811,20.9,47861,13050,Profit,3
+F062,Parsa,Rice,Radha-4,Kharif,Irrigated,Integrated,2.77,6.9,21.4,1754,95,4.77,52557,28.6,136422,83865,Profit,3
+F063,Chitwan,Wheat,NL-297,Rabi,Rainfed,Chemical,2.8,,25.9,1772,134,3.26,47555,30.7,100082,52527,Profit,3
+F064,Nawalpur,Lentil,Simal,Rabi,Rainfed,Chemical,3.22,7.0,26.5,1357,116,1.78,49273,31.8,56604,7331,Profit,2
+F065,Nawalpur,Mustard,Local,Rabi,Irrigated,Chemical,0.25,5.5,25.3,999,96,2.73,48274,28.1,76713,28439,Profit,5
+F066,Nawalpur,Maize,Rampur Composite,Kharif,Rainfed,Integrated,2.92,6.3,23.0,1642,122,4.32,41845,28.1,121392,79547,Profit,5
+F067,Parsa,Wheat,WK-1204,Rabi,Irrigated,Integrated,2.5,5.5,21.5,1134,87,3.47,42485,26.6,92302,49817,Profit,2
+F068,Parsa,Mustard,Pusa Bold,Rabi,Rainfed,Organic,3.44,7.0,27.5,1192,104,1.98,45309,25.1,49698,4389,Profit,1
+F069,Nawalpur,Wheat,Gautam,Rabi,Irrigated,Chemical,1.0,6.0,23.6,1446,120,4.38,46845,34.4,150672,103827,Profit,1
+F070,Rupandehi,Maize,Rampur Composite,Kharif,Irrigated,Organic,0.56,7.1,25.9,1573,108,4.77,43849,30.6,145962,102113,Profit,4
+F071,Chitwan,Lentil,LL-981,Rabi,Irrigated,Chemical,2.77,6.7,26.2,1821,117,3.14,46098,15.6,48984,2886,Profit,1
+F072,Parsa,Mustard,Local,Rabi,Rainfed,Chemical,2.55,6.5,26.1,1270,125,2.1,40730,24.0,50400,9670,Profit,4
+F073,Nawalpur,Lentil,Simal,Rabi,Irrigated,Integrated,1.62,6.7,26.9,925,100,2.13,49871,20.0,42600,-7271,Loss,4
+F074,Chitwan,Mustard,Local,Rabi,Irrigated,Integrated,1.04,6.7,22.7,1139,124,2.56,47102,23.2,59392,12290,Profit,2
+F075,Chitwan,Lentil,LL-981,Rabi,Rainfed,Integrated,1.29,5.8,27.5,1670,92,2.3,42398,24.1,55430,13032,Profit,2
+F076,Parsa,Wheat,Gautam,Rabi,Rainfed,Chemical,2.99,6.7,24.3,1074,133,2.73,46524,21.7,59241,12717,Profit,5
+F077,Nawalpur,Rice,Sukhadhan-3,Kharif,Rainfed,Chemical,0.3,6.3,17.3,1458,118,4.04,43848,27.2,109888,66040,Profit,1
+F078,Rupandehi,Lentil,Simal,Rabi,Irrigated,Chemical,0.72,4.9,20.8,1932,116,2.78,48827,26.4,73392,24565,Profit,1
+F079,Parsa,Maize,Pool-17,Kharif,Irrigated,Integrated,1.66,6.2,22.5,1322,132,4.76,47573,32.8,156128,108555,Profit,5
+F080,Chitwan,Rice,Sabitri,Kharif,Irrigated,Organic,2.73,6.3,23.6,1523,103,4.37,41876,27.3,119301,77425,Profit,5
+F081,Chitwan,Maize,Across-9942,Kharif,Rainfed,Organic,1.64,6.6,25.2,1105,122,3.92,42963,31.0,121520,78557,Profit,5
+F082,Bara,Mustard,Pusa Bold,Rabi,Irrigated,Organic,1.0,6.1,21.0,1362,103,2.23,45764,33.2,74036,28272,Profit,1
+F083,Nawalpur,Lentil,Shital,Rabi,Rainfed,Chemical,1.36,6.0,22.7,1394,119,2.39,48948,38.9,92971,44023,Profit,4
+F084,Nawalpur,Mustard,Arun,Rabi,Irrigated,Integrated,2.32,6.8,20.5,1996,94,2.52,43570,21.4,53928,10358,Profit,5
+F085,Bara,Rice,Sukhadhan-3,Kharif,Irrigated,Chemical,1.69,,24.6,1313,123,4.57,45459,27.8,127046,81587,Profit,5
+F086,Parsa,Rice,Sukhadhan-3,Kharif,Rainfed,Chemical,2.2,6.7,23.1,1771,74,4.47,46985,35.6,159132,112147,Profit,4
+F087,Nawalpur,Lentil,LL-981,Rabi,Irrigated,Chemical,3.23,6.4,24.7,1028,101,2.7,46960,33.6,90720,43760,Profit,4
+F088,Bara,Maize,Pool-17,Kharif,Rainfed,Integrated,3.08,6.0,23.2,1779,105,4.09,45733,32.0,130880,85147,Profit,4
+F089,Rupandehi,Maize,Pool-17,Kharif,Rainfed,Integrated,3.49,6.0,27.7,1606,123,4.43,45815,26.6,117838,72023,Profit,4
+F090,Rupandehi,Wheat,Gautam,Rabi,Irrigated,Chemical,2.99,6.3,18.4,1620,113,4.22,47218,25.9,109298,62080,Profit,5
+F091,Parsa,Wheat,Gautam,Rabi,Irrigated,Integrated,2.57,6.4,20.1,1133,111,4.22,52333,26.1,110142,57809,Profit,2
+F092,Nawalpur,Maize,Across-9942,Kharif,Irrigated,Chemical,2.77,5.9,24.9,998,91,5.73,49906,19.9,114027,64121,Profit,5
+F093,Bara,Rice,Sabitri,Kharif,Rainfed,Chemical,1.68,7.0,24.6,1304,123,3.53,47614,25.8,91074,43460,Profit,4
+F094,Bara,Lentil,Shital,Rabi,Irrigated,Organic,1.44,,29.2,1199,112,2.14,42704,37.2,79608,36904,Profit,2
+F095,Parsa,Mustard,Arun,Rabi,Irrigated,Organic,0.26,6.9,29.7,1017,122,2.01,45525,28.5,57285,11760,Profit,5
+F096,Chitwan,Mustard,Pusa Bold,Rabi,Rainfed,Chemical,2.17,,28.3,1407,118,1.43,46582,28.3,40469,-6113,Loss,1
+F097,Bara,Lentil,Shital,Rabi,Rainfed,Integrated,1.87,6.7,21.2,1317,82,1.26,43188,28.9,36414,-6774,Loss,1
+F098,Rupandehi,Maize,Pool-17,Kharif,Rainfed,Organic,2.75,6.1,24.8,1460,101,4.06,36703,25.6,103936,67233,Profit,2
+F099,Parsa,Rice,Sabitri,Kharif,Irrigated,Organic,2.81,5.5,23.0,1597,117,3.99,48215,29.6,118104,69889,Profit,3
+F100,Chitwan,Maize,Pool-17,Kharif,Irrigated,Organic,2.84,5.8,25.9,1315,118,4.7,41317,29.2,137240,95923,Profit,1
+F101,Chitwan,Mustard,Local,Rabi,Rainfed,Organic,2.0,5.8,27.9,1577,97,1.01,38968,23.7,23937,-15031,Loss,1
+F102,Nawalpur,Maize,Across-9942,Kharif,Irrigated,Organic,0.45,5.6,28.1,1533,108,4.39,40728,29.8,130822,90094,Profit,3
+F103,Parsa,Maize,Pool-17,Kharif,Irrigated,Organic,2.44,6.2,20.5,1706,95,4.74,42659,24.9,118026,75367,Profit,1
+F104,Rupandehi,Rice,Radha-4,Kharif,Irrigated,Integrated,0.59,6.1,22.0,1087,59,4.75,48742,30.8,146300,97558,Profit,4
+F105,Bara,Rice,Sukhadhan-3,Kharif,Irrigated,Organic,2.01,6.3,23.5,1539,107,4.12,42622,30.7,126484,83862,Profit,2
+F106,Rupandehi,Wheat,WK-1204,Rabi,Irrigated,Integrated,2.09,6.5,23.8,1631,116,3.93,43850,23.7,93141,49291,Profit,5
+F107,Rupandehi,Rice,Radha-4,Kharif,Rainfed,Chemical,1.74,6.5,27.9,1739,88,3.83,47244,32.3,123709,76465,Profit,1
+F108,Nawalpur,Rice,Sabitri,Kharif,Irrigated,Organic,1.26,5.5,29.9,1508,101,4.05,41152,31.0,125550,84398,Profit,5
+F109,Nawalpur,Rice,Sukhadhan-3,Kharif,Irrigated,Integrated,0.71,6.5,23.2,1065,84,4.48,48101,28.3,126784,78683,Profit,5
+F110,Rupandehi,Maize,Pool-17,Kharif,Irrigated,Integrated,0.3,5.5,22.8,1415,137,4.93,49035,26.9,132617,83582,Profit,4
+F111,Parsa,Mustard,Pusa Bold,Rabi,Irrigated,Organic,1.23,5.9,23.4,906,120,2.21,41565,26.3,58123,16558,Profit,4
+F112,Bara,Rice,Radha-4,Kharif,Irrigated,Organic,0.37,6.5,21.6,1775,94,4.74,42061,29.1,137934,95873,Profit,5
+F113,Parsa,Mustard,Local,Rabi,Irrigated,Organic,3.32,6.5,26.0,1364,127,2.11,47231,23.1,48741,1510,Profit,4
+F114,Nawalpur,Maize,Rampur Composite,Kharif,Rainfed,Chemical,0.64,5.9,26.3,1705,116,4.44,46682,23.9,106116,59434,Profit,5
+F115,Nawalpur,Maize,Pool-17,Kharif,Rainfed,Organic,3.42,6.6,24.8,1181,110,3.8,36473,27.7,105260,68787,Profit,1
+F116,Rupandehi,Rice,Sukhadhan-3,Kharif,Irrigated,Chemical,1.91,6.4,23.0,1296,124,4.47,44944,23.1,103257,58313,Profit,5
+F117,Parsa,Lentil,LL-981,Rabi,Irrigated,Chemical,2.89,5.9,20.1,780,117,2.44,48535,26.9,65636,17101,Profit,4
+F118,Nawalpur,Maize,Pool-17,Kharif,Irrigated,Organic,2.13,5.7,21.0,1626,128,5.52,45439,28.8,158976,113537,Profit,3
+F119,Rupandehi,Mustard,Local,Rabi,Rainfed,Chemical,1.86,6.3,18.3,1486,105,1.45,34938,21.4,31030,-3908,Loss,4
+F120,Parsa,Lentil,Simal,Rabi,Rainfed,Chemical,3.21,5.7,28.1,1161,92,1.95,43550,28.1,54795,11245,Profit,2

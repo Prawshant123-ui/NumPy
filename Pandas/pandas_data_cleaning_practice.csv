@@ -1,0 +1,31 @@
+CustomerID,Name,Age,Gender,City,JoinDate,PurchaseAmount,Product,Rating,Email
+C001,  Prashant Sharma ,25,Male,Kathmandu,2024-01-15,1200.50,Laptop,5,prashant@example.com
+C002,Sushant Rai,thirty,M,Pokhara,15/02/2024,850,Headphones,4,sushant.rai@example.com
+C003,Rahul Thapa,19,Male,kathmandu,2024-03-10,500.00,Keyboard,3,rahul@example.com
+C004,Sofiya Khan,21,Female,Lalitpur,2024/04/05,"NPR 2,500",Monitor,5,sofiya@example.com
+C005,Aarav Joshi,42,Male,Bhaktapur,2024-05-22,1200.50,Laptop,6,aarav@example.com
+C006,Mina Gurung,,Female,Pokhara ,2024-06-11,?,Mouse,4,mina@example.com
+C007,  Bikash Tamang,31,M,Kathmandu,not available,300,Mouse,2,bikash@example.com
+C008,Anisha KC,27,F,Lalitpur,2024-08-19,1500,Tablet,4,anisha@example.com
+C009,Rahul Thapa,19,Male,kathmandu,2024-03-10,500.00,Keyboard,3,rahul@example.com
+C010,Nisha Adhikari,150,Female,Chitwan,2024-10-02,-200,Desk,4,nisha@example.com
+C011,Rohan Basnet,24,Male,Biratnagar,2024-11-14,700,Chair,N/A,rohan.basnet@example.com
+C012,Puja Shrestha,29,Female,Pokhara,2024-12-01,999.99,Phone,5,puja.shrestha@example.com
+C013,Kiran Lama,35,Other,Dharan,2025-01-17,450,Webcam,4,kiran@example.com
+C014,Deepa Poudel,22,Female,Lalitpur,2025-02-03,"1,250",Tablet,3,
+C015,Manish Karki,28,Male,Kathmandu,2025-03-09,1100,Laptop,4,manish@example.com
+C016,Elina Rai,33,Female,Butwal,2025-04-21,650,Phone,5,elina@example.com
+C017,Sagar Thapa,26,M,Biratnagar,2025-05-12,800,Headphones,4,sagar@example.com
+C018,Asha Shrestha,41,Female,Kathmandu,2025-06-30,900,Chair,5,asha@example.com
+C019,Prakash Oli,30,Male,Nepalgunj,2025-07-08,"1,050",Desk,4,prakash@example.com
+C020,Tara Magar,23,Female,Hetauda,2025-08-16,400,Mouse,3,tara.magar@example.com
+C021,Nabin Shah,37,Male,Janakpur,2025-09-11,1750,Monitor,4,nabin@example.com
+C022,Rita Bhandari,32,Female,Dhangadhi,2025-10-25,550,Webcam,5,rita@example.com
+C023,Hari Bista,0,Male,Butwal,2025-11-02,600,Phone,2,hari@example.com
+C024,Sita Koirala,27,F,Pokhara,2025-12-12,720,Keyboard,4,sita@example.com
+C025,Ramesh Yadav,34,Male,Kathmandu,2026-01-06,950,Laptop,5,ramesh@example.com
+C026,  Prashant Sharma ,25,Male,Kathmandu,2024-01-15,1200.50,Laptop,5,prashant@example.com
+C027,Gita Rai,twenty-eight,F,LALITPUR,2026-13-40,unknown,Tablet,7,gita.rai[at]example.com
+C028,Om Prasad,45,Male, Janakpur,2025-03-14,"2,100",Desk,4,om@example.com
+C029,Sabina Ali,36,Female,Dharan,2025-04-07,875,Headphones,5,sabina@example.com
+C030,Bimal KC,29,Male,Pokhara,2025-05-19,"1,300",Monitor,4,bimal@example.com
